@@ -1,0 +1,98 @@
+@keyframes mainPageNavLink{
+  0%{
+    color: white;
+    }
+100%{
+    color:red;
+    }
+}
+
+
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+body{
+  background: url("https://media.giphy.com/media/wPcyevMNXbpwA/giphy.gif");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  
+}
+html{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  animation: mainPageNavLink 1.0s 0s forwards;
+}
+.name{
+  height: 100%;
+  width: 1%;
+  float: left;
+  margin-top: 25%;
+  line-height: 1%;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.name h2{
+  color: red;
+  font-size: 40px;
+  
+}
+.name h4{
+  letter-spacing: 6px;
+}
+
+.nav{
+  font-size: 80px;
+  height: 100%;
+  float: right;
+  margin-right: 13%;
+  line-height: 75px;
+  margin-top: 0%;
+}
+
+
+
+/* =====================About===========================*/
+
+
+
+
+
+.quotes, .books, .inspiration {
+  line-height: 40px;
+  display: none;
+}
+.aboutStuff {
+  font-size: 24px;
+  height: 100%;
+  float: right;
+  line-height: 75px;
+  margin-top: 20%;
+  width: 50%;
+  margin-right: 40%;
+}
+
+
+
+#about{
+  font-family:;
+  background: url("http://www.siwallpaperhd.com/wp-content/uploads/2015/12/bruce_lee_wallpaper_hd.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  
+}
+html{
+  height: 100%;
+}
